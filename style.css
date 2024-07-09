@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(20, 18, 18);
+    margin: 0;
+    padding: 0;
+}
+#app {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background: #e60ff5;
+    box-shadow:  -32px -32px 65px rgb(20, 18, 18),
+                 32px 32px 65px rgb(20, 18, 18);
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: darkorchid;
+    font-weight: 500;
+    padding-left: 12px;
+}
+button {
+    padding: 15px;
+    background-color: black;
+    color: #e60ff5;
+    font-size: 20px;
+    font-weight: 800;
+    border: 3px solid #e60ff5;
+    margin-left: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+li .edit {
+    cursor: pointer;
+    color: blue;
+}
+li .delete {
+    cursor: pointer;
+    color: red;
+}
